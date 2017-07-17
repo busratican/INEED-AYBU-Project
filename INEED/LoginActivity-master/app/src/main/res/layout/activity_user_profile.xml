@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ineed.ybu.ineed_app_lastest.UserProfile"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:text="Surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/tvSurname"
+        android:textSize="25sp"
+        android:layout_alignBaseline="@+id/tvName"
+        android:layout_alignBottom="@+id/tvName"
+        android:layout_toRightOf="@+id/tvName"
+        android:layout_toEndOf="@+id/tvName" />
+
+    <TextView
+        android:text="Department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvDepartment"
+        android:textSize="25sp"
+        android:layout_below="@+id/tvName"
+        android:layout_alignLeft="@+id/tvName"
+        android:layout_alignStart="@+id/tvName"
+        android:layout_marginBottom="0dp" />
+
+
+    <TextView
+        android:text="Pleasure Rate:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/tvPlrate"
+        android:textSize="25sp"
+        android:layout_below="@+id/tvClass"
+        android:layout_alignLeft="@+id/tvClass"
+        android:layout_alignStart="@+id/tvClass" />
+
+    <TextView
+        android:text="Class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvClass"
+        android:textSize="25sp"
+        android:layout_below="@+id/tvDepartment"
+        android:layout_alignLeft="@+id/tvDepartment"
+        android:layout_alignStart="@+id/tvDepartment" />
+
+    <TextView
+        android:text="PROFILE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvProfile"
+        android:textSize="26sp"
+        android:textStyle="normal|bold"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_above="@+id/tvSurname"
+        android:layout_alignRight="@+id/tvPlrate"
+        android:layout_alignEnd="@+id/tvPlrate"
+        android:layout_marginBottom="38dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/need_logo"
+        android:id="@+id/imageView5"
+        android:layout_alignBottom="@+id/tvName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:id="@+id/tvName"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/btn_message"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="54dp"
+        android:elevation="0dp"
+        android:text="send message"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/background_light"
+        android:textAllCaps="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        android:textSize="25sp"
+        android:textStyle="normal|bold"
+        android:background="@android:drawable/ic_menu_revert"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:layout_above="@+id/imageView5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">INEEDAPP_</string>
+    <string name="title_activity_helping">HelpingActivity</string>
+    <string name="auth_failed">ERROR: Registering Failed ! </string>
+    <string name="verification_email">ERROR: Verification Email Not Send ! </string>
+    <string name="forgotPassworf_email">ERROR: Reset Email Not Send !</string>
+    <string name="verification">Please Verify your email first, then log in again ! </string>
+    <string name="verify">Verify</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_maps_activitygoogle">Map</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO NEWS button below to subscribe to the
+        news topic. Messages sent to the news topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_news">Subscribe To News</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to news topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+</resources>

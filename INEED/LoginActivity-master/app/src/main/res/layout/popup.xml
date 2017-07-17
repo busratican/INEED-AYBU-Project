@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popup_element"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bubble_out"
+    android:padding="10px"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/need_logo"
+        android:id="@+id/imageView11" />
+
+    <TextView android:id="@+id/question_text"
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:text="Did you get what you were searching ?"
+        android:paddingLeft="10sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="28sp" />
+
+    <Button android:id="@+id/yes_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="3sp"
+        android:layout_centerHorizontal="true"
+        android:text="YES"
+        android:textColor="@android:color/background_light"
+        style="@android:style/Widget.Button.Inset"
+        android:background="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp" />
+
+    <Button android:id="@+id/cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="3sp"
+        android:layout_centerHorizontal="true"
+        android:text="CANCEL"
+        android:textColor="@android:color/background_light"
+        style="@android:style/Widget.Button.Inset"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+</LinearLayout>

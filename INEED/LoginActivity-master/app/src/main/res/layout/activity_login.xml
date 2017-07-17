@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ineed.ybu.ineed_app_lastest.LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1"
+    android:background="@android:color/darker_gray">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/need_logo"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textStyle="normal|bold|italic"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usermail"
+        android:inputType="text"
+        android:maxLines="1"
+        android:hint="12..@ybu.edu.tr"
+        android:layout_marginBottom="10dp"
+        android:textStyle="normal|italic"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:hint="enter password"
+        android:layout_marginBottom="10dp"
+        android:textStyle="normal|italic"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/loginButton"
+        android:layout_marginBottom="50dp"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_weight="0.06"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="normal|bold"
+        android:fontFamily="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create an account ?"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/register"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/rounded_corner1"
+        android:fontFamily="casual"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot password ?"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/forgotpass"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/rounded_corner1"
+        android:fontFamily="casual"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
